@@ -1,4 +1,4 @@
-name: run ws.py
+name: run ws
 
 on:
   schedule:
