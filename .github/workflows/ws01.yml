@@ -19,4 +19,5 @@ jobs:
       - name: Run a Python script
         env:
           TOKEN_01: ${{ secrets.TOKEN_01 }}
+          TOKEN_02: ${{ secrets.TOKEN_02 }}
         run: python ws.py
