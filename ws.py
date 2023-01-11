@@ -13,7 +13,7 @@ tweet = headline+"\n"+description+"\n#tweeter #news #brasil "
 print(tweet)
 ###############
 token = os.getenv('TOKEN_01')
-chat_id = '-765265281'
+chat_id = os.getenv('TOKEN_02')
 msg = (tweet)
 url_tel = ("https://api.telegram.org/bot"+token+"/sendMessage?chat_id="+chat_id+"&text="+msg)
 respost = requests.get(url_tel)
