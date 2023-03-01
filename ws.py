@@ -10,7 +10,7 @@ article = soup.find('h3', class_="bbc-1whbtaf")
 headline = article.text
 description = article.find_next("p", class_="bbc-1g5xny6").text
 git = "By GitHub lakeonebr03/ws_news"
-tweet = (f"{headline}\n{description}\n{git}\n#tweeter #news #brasil")
+tweet = (f"{headline}\n{description}\n{git}\n #tweeter #news #brasil")
 #print(tweet)
 ###############
 token = os.getenv('TOKEN_01')
